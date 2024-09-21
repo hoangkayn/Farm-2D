@@ -1,0 +1,264 @@
+[
+  {
+    "ID": 0,
+    "Name": "Cotton Candy",
+    "DisplayName": "Kẹo Bông",
+    "Description": "Một đám mây lớn màu hồng làm từ tơ đường kéo sọi.",
+    "Price": 50,
+    "ItemTags": [
+      "Sweet",
+      "Candy"
+    ]
+  },
+  {
+    "ID": 1,
+    "Name": "Jasmine Tea",
+    "DisplayName": "Trà hoa nhài",
+    "Description": "Trà xanh hương hoa nhài thơm lừng.",
+    "Price": 50,
+    "ItemTags": [
+      "Drink",
+      "Hot",
+      "Healthy"
+    ]
+  },
+  {
+    "ID": 2,
+    "Name": "Joja Cola",
+    "DisplayName": "Joja Cola",
+    "Description": "Một cốc nước ngọt có ga cực lớn chính hiệu Joja.",
+    "Price": 40,
+    "ItemTags": [
+      "Drink",
+      "Cold",
+      "Joja"
+    ]
+  },
+  {
+    "ID": 3,
+    "Name": "Sour Slimes",
+    "DisplayName": "Kẹo Slime chua",
+    "Description": "Kẹo slime dẻo nhỏ xíu đủ loại màu sắc. Chúng được rắc một loại bột cực kỳ chua.",
+    "Price": 80,
+    "ItemTags": [
+      "Sour",
+      "Candy"
+    ]
+  },
+  {
+    "ID": 4,
+    "Name": "Personal Pizza",
+    "DisplayName": "Pizza nhà làm",
+    "Description": "Một chiếc bánh pizza vừa đủ nhỏ để thưởng thức như một món ăn vặt.",
+    "Price": 150,
+    "ItemTags": [
+      "Hot",
+      "Fatty"
+    ]
+  },
+  {
+    "ID": 5,
+    "Name": "Nachos",
+    "DisplayName": "Bánh Mễ phủ phô mai",
+    "Description": "Bánh ngô giòn Mexico mới chiên phủ sốt phô mai mềm, cay dính.",
+    "Price": 100,
+    "ItemTags": [
+      "Hot",
+      "Salty",
+      "Fatty"
+    ]
+  },
+  {
+    "ID": 6,
+    "Name": "Salmon Burger",
+    "DisplayName": "Bánh mì kẹp Cá hồi",
+    "Description": "Bánh mì tròn rắc hạt mè, nướng vừa giòn kẹp một miếng cá hồi dày.",
+    "Price": 150,
+    "ItemTags": [
+      "Sandwich",
+      "Burger"
+    ]
+  },
+  {
+    "ID": 7,
+    "Name": "Ice Cream Sandwich",
+    "DisplayName": "Sandwich Kem",
+    "Description": "Kem vani kẹp giữa hai chiếc bánh quy sô-cô-la.",
+    "Price": 150,
+    "ItemTags": [
+      "Sandwich",
+      "Sweet",
+      "Cold"
+    ]
+  },
+  {
+    "ID": 8,
+    "Name": "Popcorn",
+    "DisplayName": "Bỏng ngô",
+    "Description": "Hạt ngô bung, được rắc chút xíu muối và tẩm thêm một lớp bơ mỏng.",
+    "Price": 120,
+    "ItemTags": [
+      "Hot",
+      "Salty"
+    ]
+  },
+  {
+    "ID": 9,
+    "Name": "Fries",
+    "DisplayName": "Khoai tây chiên",
+    "Description": "Khoai tây thái lát mỏng, chiên giòn sau đó tẩm chút muối.",
+    "Price": 100,
+    "ItemTags": [
+      "Hot",
+      "Salty",
+      "Fatty"
+    ]
+  },
+  {
+    "ID": 10,
+    "Name": "Chocolate Popcorn",
+    "DisplayName": "Bỏng ngô Sô-cô-la",
+    "Description": "Bỏng ngô thường... nhưng phủ một lớp sô-cô-la.",
+    "Price": 130,
+    "ItemTags": [
+      "Hot",
+      "Sweet"
+    ]
+  },
+  {
+    "ID": 11,
+    "Name": "Black Licorice",
+    "DisplayName": "Cam thảo đen",
+    "Description": "Kẹo dẻo với hương vị cay nồng.",
+    "Price": 25,
+    "ItemTags": null
+  },
+  {
+    "ID": 12,
+    "Name": "Star Cookie",
+    "DisplayName": "Bánh quy Ngôi sao",
+    "Description": "Bánh quy hình ngôi sao rắc đường cầu vồng.",
+    "Price": 150,
+    "ItemTags": [
+      "Sweet"
+    ]
+  },
+  {
+    "ID": 13,
+    "Name": "Jawbreaker",
+    "DisplayName": "Kẹo Sái-hàm",
+    "Description": "Một cục kẹo vừa to vừa cứng, xem cả bộ phim mới ăn hết!",
+    "Price": 250,
+    "ItemTags": [
+      "Sweet",
+      "Candy"
+    ]
+  },
+  {
+    "ID": 14,
+    "Name": "Salted Peanuts",
+    "DisplayName": "Đậu phộng lắc muối",
+    "Description": "Một món ăn mặn cổ điển.",
+    "Price": 120,
+    "ItemTags": [
+      "Salty"
+    ]
+  },
+  {
+    "ID": 15,
+    "Name": "Hummus Snack Pack",
+    "DisplayName": "Snack vị đậu gà hầm",
+    "Description": "Món ăn vặt giòn tan và lành mạnh.",
+    "Price": 90,
+    "ItemTags": [
+      "Healthy"
+    ]
+  },
+  {
+    "ID": 16,
+    "Name": "Kale Smoothie",
+    "DisplayName": "Sinh tố cải xoăn",
+    "Description": "Nó chứa nhiều vitamin và chất xơ.",
+    "Price": 120,
+    "ItemTags": [
+      "Drink",
+      "Healthy"
+    ]
+  },
+  {
+    "ID": 17,
+    "Name": "Apple Slices",
+    "DisplayName": "Táo thái lát",
+    "Description": "Những lát táo nhỏ giòn và ngọt.",
+    "Price": 100,
+    "ItemTags": [
+      "Sweet",
+      "Healthy"
+    ]
+  },
+  {
+    "ID": 18,
+    "Name": "Panzanella Salad",
+    "DisplayName": "Sa-lát bánh mì kiểu Ý",
+    "Description": "Món sa-lát mùa hè gồm bánh mì và cà chua.",
+    "Price": 200,
+    "ItemTags": [
+      "Gourmet",
+      "Healthy"
+    ]
+  },
+  {
+    "ID": 19,
+    "Name": "Truffle Popcorn",
+    "DisplayName": "Bỏng ngô vị nấm cục",
+    "Description": "Bắp rang bơ gia truyền rắc muối nấm cục.",
+    "Price": 180,
+    "ItemTags": [
+      "Gourmet",
+      "Salty"
+    ]
+  },
+  {
+    "ID": 20,
+    "Name": "Cappuccino Mousse Cake",
+    "DisplayName": "Bánh kem Cappuccino",
+    "Description": "Bánh sô-cô-la nhỏ phủ lớp kem cappuccino dày.",
+    "Price": 220,
+    "ItemTags": [
+      "Sweet",
+      "Gourmet"
+    ]
+  },
+  {
+    "ID": 21,
+    "Name": "JojaCorn",
+    "DisplayName": "Bắp-Joja",
+    "Description": "Món ăn làm từ ngô Joja, ngập ngụa \"sốt bơ\".",
+    "Price": 10,
+    "ItemTags": [
+      "Joja"
+    ]
+  },
+  {
+    "ID": 22,
+    "Name": "Stardrop Sorbet",
+    "DisplayName": "Kem Sao Sa tươi",
+    "Description": "Một giọt tinh chất Sao sa sẽ biến món kem trái cây tươi này thành một món ăn đặc biệt.",
+    "Price": 1250,
+    "ItemTags": [
+      "Sweet",
+      "Gourmet"
+    ]
+  },
+  {
+    "ID": 23,
+    "Name": "Rock Candy",
+    "DisplayName": "Kẹo Đá",
+    "Description": "Loại kẹo nhiều vị làm từ đường kính, có que cầm tiện lợi.",
+    "Price": 90,
+    "ItemTags": [
+      "Sweet",
+      "Candy"
+    ]
+  }
+]

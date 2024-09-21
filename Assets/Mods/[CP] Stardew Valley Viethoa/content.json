@@ -1,0 +1,356 @@
+{
+    "Format": "1.20.0",
+    "ConfigSchema": {
+        "Font": {
+            "AllowValues": "ChuIn, ChuVietTay",
+            "Default": "ChuVietTay"
+        },
+		
+        "FontHoiThoai": {
+            "AllowValues": "ChuIn, ChuVietTay",
+            "Default": "ChuVietTay"
+        }
+    },
+	
+    "Changes": [
+	  
+      // Fonts
+      {
+        "Action": "Load",
+        "Target": "Fonts/SmallFont, Fonts/SpriteFont1",
+        "FromFile": "assets/Content/{{Target}}_vi.xnb",
+		"When": {
+      "Language": "es",
+	  "Font": "ChuIn"
+	  }
+      },
+	  {
+        "Action": "Load",
+        "Target": "Fonts/SmallFont, Fonts/SpriteFont1",
+        "FromFile": "assets/Content/{{Target}}_vi1.xnb",
+		"When": {
+      "Language": "es",
+	  "Font": "ChuVietTay"
+	  }
+      },
+	  
+      {
+        "Action": "Load",
+        "Target": "LooseSprites/font_bold, LooseSprites/font_colored",
+        "FromFile": "assets/Content/{{Target}}_vi1.xnb",
+		"When": {
+      "Language": "es",
+	  "FontHoiThoai": "ChuVietTay"
+	  }
+      },
+	  
+	  
+      {
+        "Action": "Load",
+        "Target": "LooseSprites/font_bold, LooseSprites/font_colored",
+        "FromFile": "assets/Content/{{Target}}_vi.xnb",
+		"When": {
+      "Language": "es",
+	  "FontHoiThoai": "ChuIn"
+	  }
+      },
+
+      // LooseSprites
+      {
+        "Action": "EditImage",
+        "Target": "LooseSprites/ControllerMaps, LooseSprites/JojaCDForm",
+        "FromFile": "assets/Content/{{Target}}_vi.xnb",
+		"When": {
+      "Language": "es"
+	  }
+      },
+	  {
+        "Action": "EditImage",
+        "Target": "LooseSprites/Billboard, LooseSprites/Cursors, LooseSprites/JunimoNote",
+        "FromFile": "assets/Content/{{Target}}_vi.xnb",
+		"PatchMode": "Overlay",
+		"When": {
+      "Language": "es"
+	  }
+      },
+		//Cursors
+	{
+		"LogName": "FishingNotice",
+        "Action": "EditImage",
+        "Target": "LooseSprites/Cursors",
+        "FromFile": "assets/Content/LooseSprites/Cursors_vi2.xnb",
+		"FromArea": { "X": 544, "Y": 1913, "Width": 141, "Height": 30 },
+		"ToArea": { "X": 544, "Y": 1913, "Width": 141, "Height": 30 },
+		"PatchMode": "Replace",
+		"When": {
+      "Language": "es"
+	  }
+      },
+	  {
+		"LogName": "LevelUp",
+        "Action": "EditImage",
+        "Target": "LooseSprites/Cursors",
+        "FromFile": "assets/Content/LooseSprites/Cursors_vi2.xnb",
+		"FromArea": { "X": 361, "Y": 84, "Width": 63, "Height": 28 },
+		"ToArea": { "X": 361, "Y": 84, "Width": 63, "Height": 28 },
+		"PatchMode": "Replace",
+		"When": {
+      "Language": "es"
+	  }
+      },
+	  {
+		"LogName": "SeasonsTiles",
+        "Action": "EditImage",
+        "Target": "LooseSprites/Cursors",
+        "FromFile": "assets/Content/LooseSprites/Cursors_vi2.xnb",
+		"FromArea": { "X": 186, "Y": 437, "Width": 69, "Height": 23 },
+		"ToArea": { "X": 186, "Y": 437, "Width": 69, "Height": 23 },
+		"PatchMode": "Replace",
+		"When": {
+      "Language": "es"
+	  }
+      },
+	  {
+		"LogName": "CalicoSpin",
+        "Action": "EditImage",
+        "Target": "LooseSprites/Cursors",
+        "FromFile": "assets/Content/LooseSprites/Cursors_vi2.xnb",
+		"FromArea": { "X": 441, "Y": 424, "Width": 62, "Height": 12 },
+		"ToArea": { "X": 441, "Y": 424, "Width": 62, "Height": 12 },
+		"PatchMode": "Replace",
+		"When": {
+      "Language": "es"
+	  }
+      },
+	  
+	  {
+		"LogName": "BundleComplete",
+        "Action": "EditImage",
+        "Target": "LooseSprites/Cursors",
+        "FromFile": "assets/Content/LooseSprites/Cursors_vi2.xnb",
+		"FromArea": { "X": 128, "Y": 1367, "Width": 126, "Height": 14 },
+		"ToArea": { "X": 128, "Y": 1367, "Width": 126, "Height": 14 },
+		"PatchMode": "Replace",
+		"When": {
+      "Language": "es"
+	  }
+      },
+	  
+	  {
+		"LogName": "ArcadeTile1",
+        "Action": "EditImage",
+        "Target": "LooseSprites/Cursors",
+        "FromFile": "assets/Content/LooseSprites/Cursors_vi2.xnb",
+		"FromArea": { "X": 128, "Y": 1744, "Width": 94, "Height": 67 },
+		"ToArea": { "X": 128, "Y": 1744, "Width": 94, "Height": 67 },
+		"PatchMode": "Replace",
+		"When": {
+      "Language": "es"
+	  }
+      },
+	  
+	  {
+		"LogName": "ArcadeTile1_Ends",
+        "Action": "EditImage",
+        "Target": "LooseSprites/Cursors",
+        "FromFile": "assets/Content/LooseSprites/Cursors_vi2.xnb",
+		"FromArea": { "X": 222, "Y": 1744, "Width": 66, "Height": 48 },
+		"ToArea": { "X": 222, "Y": 1744, "Width": 66, "Height": 48 },
+		"PatchMode": "Replace",
+		"When": {
+      "Language": "es"
+	  }
+      },
+
+      // Language Button
+      {
+        "Action": "EditImage",
+        "Target": "LooseSprites/LanguageButtons",
+        "FromFile": "assets/Content/LooseSprites/LanguageButtons_vi.xnb",
+		"PatchMode": "Overlay"
+      },
+
+      // Minigames
+      {
+        "Action": "EditImage",
+        "Target": "Minigames/jojacorps",
+        "FromFile": "assets/Content/{{Target}}_vi.xnb",
+		"When": {
+      "Language": "es"
+	  }
+      },
+	  {
+        "Action": "EditImage",
+        "Target": "Minigames/Intro, Minigames/TitleButtons",
+        "FromFile": "assets/Content/{{Target}}_vi.xnb",
+		"PatchMode": "Overlay",
+		"When": {
+      "Language": "es"
+	  }
+      },
+
+      // Dialogue
+      {
+        "Action": "Load",
+        "Target": "Characters/Dialogue/Abigail, Characters/Dialogue/Alex, Characters/Dialogue/Caroline, Characters/Dialogue/Clint, Characters/Dialogue/Demetrius, Characters/Dialogue/Dwarf, Characters/Dialogue/Elliott, Characters/Dialogue/Emily, Characters/Dialogue/Evelyn, Characters/Dialogue/George, Characters/Dialogue/Gil, Characters/Dialogue/Gus, Characters/Dialogue/Haley, Characters/Dialogue/Harvey, Characters/Dialogue/Jas, Characters/Dialogue/Jodi, Characters/Dialogue/Kent, Characters/Dialogue/Krobus, Characters/Dialogue/Leah, Characters/Dialogue/Leo, Characters/Dialogue/LeoMainland, Characters/Dialogue/Lewis, Characters/Dialogue/Linus, Characters/Dialogue/Marnie, Characters/Dialogue/Maru, Characters/Dialogue/Mister Qi, Characters/Dialogue/Pam, Characters/Dialogue/Penny, Characters/Dialogue/Pierre, Characters/Dialogue/rainy, Characters/Dialogue/Robin, Characters/Dialogue/Sam, Characters/Dialogue/Sandy, Characters/Dialogue/Sebastian, Characters/Dialogue/Shane, Characters/Dialogue/Vincent, Characters/Dialogue/Willy, Characters/Dialogue/Wizard",
+        "FromFile": "assets/Content/{{Target}}_vi.xnb",
+		"When": {
+      "Language": "es"
+	  }
+      },
+
+      // Marriage
+      {
+        "Action": "Load",
+        "Target": "Characters/Dialogue/MarriageDialogue, Characters/Dialogue/MarriageDialogueAbigail, Characters/Dialogue/MarriageDialogueAlex, Characters/Dialogue/MarriageDialogueElliott, Characters/Dialogue/MarriageDialogueEmily, Characters/Dialogue/MarriageDialogueHaley, Characters/Dialogue/MarriageDialogueHarvey, Characters/Dialogue/MarriageDialogueKrobus, Characters/Dialogue/MarriageDialogueLeah, Characters/Dialogue/MarriageDialogueMaru, Characters/Dialogue/MarriageDialoguePenny, Characters/Dialogue/MarriageDialogueSam, Characters/Dialogue/MarriageDialogueSebastian, Characters/Dialogue/MarriageDialogueShane",
+        "FromFile": "assets/Content/{{Target}}_vi.xnb",
+		"When": {
+      "Language": "es"
+	  }
+      },
+
+      // Data
+      {
+        "Action": "Load",
+        "Target": "Data/BigCraftablesInformation, Data/Blueprints, Data/Boots, Data/Bundles, Data/ClothingInformation, Data/EngagementDialogue, Data/ExtraDialogue, Data/FarmAnimals, Data/Fish, Data/Furniture, Data/hats, Data/mail, Data/Monsters, Data/NPCDispositions, Data/NPCGiftTastes, Data/ObjectInformation, Data/Quests, Data/SecretNotes, Data/weapons",
+        "FromFile": "assets/Content/{{Target}}_vi.xnb",
+		"When": {
+      "Language": "es"
+	  }
+      },
+	  {
+		"LogName": "Achievements",
+		"Action": "Include",
+		"FromFile": "assets/Content/Data/Achievements_vi.json",
+		"When": {
+	  "Language": "es"
+		}
+		},
+	  {
+		"LogName": "CookingRecipes",
+		"Action": "Include",
+		"FromFile": "assets/Content/Data/CookingRecipes_vi.json",
+		"When": {
+	  "Language": "es"
+			}
+		},
+	  {
+		"LogName": "CraftingRecipes",
+		"Action": "Include",
+		"FromFile": "assets/Content/Data/CraftingRecipes_vi.json",
+		"When": {
+	  "Language": "es"
+			}
+		},
+	  
+	  {
+		"LogName": "Bundles_vi",
+		"Action": "Include",
+		"FromFile": "assets/Content/Data/Bundles_vi.json",
+		"When": {
+	  "Language": "es",
+	  "HasSeenEvent": "611439"
+			}
+		},
+		
+	  // Concessions, Movies & MoviesReactions
+      {
+        "LogName": "Concessions",
+		"Action": "Load",
+        "Target": "Data/Concessions",
+        "FromFile": "assets/Content/Data/Concessions_vi.json",
+		"When": {
+      "Language": "es"
+	  }
+      },
+	  {
+        "LogName": "Movies",
+		"Action": "Include",
+        "FromFile": "assets/Content/Data/Movies_vi.json",
+		"When": {
+      "Language": "es"
+	  }
+      },
+	  {
+        "LogName": "MoviesReactions",
+		"Action": "Include",
+        "FromFile": "assets/Content/Data/MoviesReactions_vi.json",
+		"When": {
+      "Language": "es"
+	  }
+      },
+
+      // Paint Data
+      {
+        "Action": "Load",
+        "Target": "Data/PaintData",
+        "FromFile": "assets/Content/{{Target}}_vi.xnb",
+		"When": {
+      "Language": "es"
+	  }
+      },
+
+      // Events
+      {
+        "Action": "Load",
+        "Target": "Data/Events/AbandonedJojaMart, Data/Events/AnimalShop, Data/Events/ArchaeologyHouse, Data/Events/Backwoods, Data/Events/BathHouse_Pool, Data/Events/Beach, Data/Events/BoatTunnel, Data/Events/BusStop, Data/Events/CommunityCenter, Data/Events/ElliottHouse, Data/Events/Farm, Data/Events/FarmHouse, Data/Events/FishShop, Data/Events/Forest, Data/Events/HaleyHouse, Data/Events/HarveyRoom, Data/Events/Hospital, Data/Events/IslandHut, Data/Events/IslandNorth, Data/Events/IslandSouth, Data/Events/IslandWest, Data/Events/JoshHouse, Data/Events/LeahHouse, Data/Events/ManorHouse, Data/Events/Mine, Data/Events/Mountain, Data/Events/QiNutRoom, Data/Events/Railroad, Data/Events/Saloon, Data/Events/SamHouse, Data/Events/SandyHouse, Data/Events/ScienceHouse, Data/Events/SebastianRoom, Data/Events/SeedShop, Data/Events/Sewer, Data/Events/Sunroom, Data/Events/Temp, Data/Events/Tent, Data/Events/Town, Data/Events/Trailer, Data/Events/Trailer_big, Data/Events/WizardHouse, Data/Events/Woods",
+        "FromFile": "assets/Content/{{Target}}_vi.xnb",
+		"When": {
+      "Language": "es"
+	  }
+      },
+
+      // Festivals
+      {
+        "Action": "Load",
+        "Target": "Data/Festivals/fall16, Data/Festivals/fall27, Data/Festivals/FestivalDates, Data/Festivals/spring13, Data/Festivals/spring24, Data/Festivals/summer11, Data/Festivals/summer28, Data/Festivals/winter8, Data/Festivals/winter25",
+        "FromFile": "assets/Content/{{Target}}_vi.xnb",
+		"When": {
+      "Language": "es"
+	  }
+      },
+
+      // TV
+      {
+        "Action": "Load",
+        "Target": "Data/TV/CookingChannel, Data/TV/InterviewShow, Data/TV/TipChannel",
+        "FromFile": "assets/Content/{{Target}}_vi.xnb",
+		"When": {
+      "Language": "es"
+	  }
+      },
+
+      // Strings
+      {
+        "Action": "Load",
+        "Target": "Strings/animationDescriptions, Strings/Buildings, Strings/BundleNames, Strings/credits, Strings/Characters, Strings/EnchantmentNames, Strings/Events, Strings/FarmAnimals, Strings/Lexicon, Strings/Locations, Strings/Notes, Strings/NPCNames, Strings/Objects, Strings/Quests, Strings/SpecialOrderStrings, Strings/SpeechBubbles, Strings/StringsFromCSFiles, Strings/StringsFromMaps, Strings/UI",
+        "FromFile": "assets/Content/{{Target}}_vi.xnb",
+		"When": {
+      "Language": "es"
+	  }
+      },
+
+      // Schedules
+      {
+        "Action": "Load",
+        "Target": "Strings/schedules/Abigail, Strings/schedules/Alex, Strings/schedules/Caroline, Strings/schedules/Clint, Strings/schedules/Demetrius, Strings/schedules/Elliott, Strings/schedules/Emily, Strings/schedules/Evelyn, Strings/schedules/George, Strings/schedules/Gus, Strings/schedules/Haley, Strings/schedules/Harvey, Strings/schedules/Jas, Strings/schedules/Jodi, Strings/schedules/Leah, Strings/schedules/Leo, Strings/schedules/Lewis, Strings/schedules/Linus, Strings/schedules/Marnie, Strings/schedules/Maru, Strings/schedules/Pam, Strings/schedules/Penny, Strings/schedules/Pierre, Strings/schedules/Robin, Strings/schedules/Sam, Strings/schedules/Sandy, Strings/schedules/Sebastian, Strings/schedules/Shane, Strings/schedules/Vincent, Strings/schedules/Willy",
+        "FromFile": "assets/Content/{{Target}}_vi.xnb",
+		"When": {
+      "Language": "es"
+	  }
+      },
+		
+		
+		// Maps
+		
+		{
+			"Action": "EditImage",
+			"Target": "Maps/{{season}}_beach, Maps/{{season}}_outdoorsTileSheet, Maps/{{season}}_town, Maps/bathhouse_tiles, Maps/coopTiles, Maps/DesertTiles, Maps/Festivals, Maps/townInterior, Maps/samshowtiles",
+			"FromFile": "assets/Content/{{Target}}_vi.xnb",
+			"PatchMode": "Overlay",
+			"When": {
+		"Language": "es"
+		}
+		}
+    ]
+}

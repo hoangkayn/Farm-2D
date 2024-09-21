@@ -1,0 +1,12 @@
+{
+    "config.CustomCursors.name": "Custom Cursors",
+    "config.CustomCursors.description": "Change the cursors to be lavender-themed.",
+    "config.SeasonalPortraitDecor.name": "Seasonal Portrait Decor",
+    "config.SeasonalPortraitDecor.description": "Toggle the seasonal greenery overlay on the potrait window.",
+    "config.FriendshipIndicator.name": "Friendship Indicator",
+    "config.FriendshipIndicator.description": "Change the friendship indicator in the portrait window.",
+    "config.ArtifactSpotToggle.name": "Artifact Spot Toggle",
+    "config.ArtifactSpotToggle.description": "Change the artifact spots to a small plant.",
+    "config.ArtifactSpotColor.name": "Artifact Spot Color",
+    "config.ArtifactSpotColor.description": "Change the color of the artifact spot. You may have to scroll the drop-down to see every option!"
+}

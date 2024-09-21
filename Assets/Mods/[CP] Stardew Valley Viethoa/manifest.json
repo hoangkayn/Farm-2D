@@ -1,0 +1,77 @@
+{
+    "Name": "Stardew Valley Vietnamese Translation",
+	"Author": "Translator: Luxanna (1.4) & Kou (1.5 & mod)",
+	"Version": "1.3.0",
+	"Description": "Ban Viet hoa dung cho Stardew Valley 1.5",
+	"UniqueID": "Kou.ViethoaSV",
+	"UpdateKeys": [ "Nexus:8409" ],
+	"MinimumApiVersion": "3.9.0",
+   "Dependencies": [
+   //Recolor Maps
+	{
+      "UniqueID": "kaya.floralvalley",
+      "IsRequired": false
+      },
+	  {
+        "UniqueID": "minervamaga.CP.eemieMapRecolour",
+        "IsRequired": false,
+    },
+    {
+        "UniqueID": "minervamaga.CP.ATDSV",
+        "IsRequired": false,
+    }, 
+{
+        "UniqueID": "stardewfoliageredone",
+        "IsRequired": false,
+    },
+{
+        "UniqueID": "stardewfoliageredonereshade",
+        "IsRequired": false,
+    },
+    {
+        "UniqueID": "Acerbicon.Recolor",
+        "IsRequired": false,
+    },
+    {
+        "UniqueID": "DaisyNiko.EarthyRecolour",
+        "IsRequired": false,
+    },
+    {
+        "UniqueID": "grapeponta.VibrantPastoralRecolor",
+        "IsRequired": false,
+    }, 
+	//UI Themes
+	{
+        "UniqueID": "megmom84.darkwoodinterface",
+        "IsRequired": false,
+    },
+	{
+        "UniqueID": "Amaryn.OvergrownFloweryInterface",
+        "IsRequired": false,
+    },
+	{
+        "UniqueID": "LPMG.SVNightmode",
+        "IsRequired": false,
+    },
+	{
+        "UniqueID": "Maythorn.VintageInterfaceMultipack",
+        "IsRequired": false,
+    },
+	{
+        "UniqueID": "ManaKirel.VintageInterface2",
+        "IsRequired": false,
+    },
+	{
+        "UniqueID": "hopewashere.transparentinterface-darkbrown",
+        "IsRequired": false,
+    },
+	{
+        "UniqueID": "ninthalley.TransparentBlueInterface",
+        "IsRequired": false,
+    },
+	  ],
+	"ContentPackFor": {
+	"UniqueID": "Pathoschild.ContentPatcher",
+	"MinimumVersion": "1.20.0"
+	}
+}

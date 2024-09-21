@@ -1,0 +1,73 @@
+{
+  //GUI - Bảng Nhiệm vụ
+  "Billboard": "Bảng Nhiệm Vụ",
+  "Calendar": "Lịch",
+  //GUI - Cửa hàng nhanh
+  "HarvestPrice": "Giá Thu Hoạch",
+  //Production
+  "Days": "Ngày",
+  "Hours": "Giờ",
+  "Minutes": "Phút",
+  //Thu hoạch
+  "DaysToMature": "Ngày thu hoạch",
+  "ReadyToHarvest": "Sẵn sàng thu hoạch!",
+  //Hiển thị biểu tượng - Tổng quát
+  "TodaysRecipe": "Công thức hôm nay: ",
+  "TravelingMerchantIsInTown": "Xe hàng hóa đang ghé qua thị trần!",
+  "RainNextDay": "Mưa vào ngày hôm sau",
+  "ThunderstormNextDay": "Mưa bão vào ngày hôm sau",
+  "SnowNextDay": "Sẽ có tuyết vào ngày hôm sau",
+  "IslandRainNextDay": "Đảo sẽ mưa vào ngày hôm sau",
+  "IslandThunderstormNextDay": "Đảo sẽ có bão vào ngày hôm sau",
+  "DaysUntilToolIsUpgraded": "{0} Ngày {1} hoàn thành nâng cấp trang bị",
+  "ToolIsFinishedBeingUpgraded": "{0} Hoàn thành!",
+  "NpcBirthday": "hôm nay là sinh nhật {0}'s  ",
+  "RobinBuildingStatus": "Robin sẽ hoàn thành công trình của bạn sau {0} ngày",
+  // Hiển thị biểu tượng - Foragables
+  "CanFindSalmonberry": "Có thể tìm thấy quả mâm sôi ngày hôm nay",
+  "CanFindBlackberry": "Có thể tìm thấy quả mọng đen ngày hôm nay",
+  "CanFindHazelnut": "Có thể tìm thấy hazelnut ngày hôm nay",
+  //Hiển thị biểu tượng - May mắn
+  "DailyLuckValue": "Giá trị may mắn hàng ngày {0}",
+  "FeelingLucky": "Hôm nay là một ngày may mắn!!",
+  "LuckyButNotTooLucky": "Hôm nay là một ngày may mắn một xíu",
+  "NotFeelingLuckyAtAll": "Hôm nay một ngày xui xẻo...",
+  "MaybeStayHome": "Hôm nay nên ở nhà...",
+  "LuckStatus1": "Cảm thấy may mắn!",
+  "LuckStatus2": "Cảm thấy một chút may mắn ngày hôm nay!",
+  "LuckStatus3": "Ngày của hôm nay nằm trong tay bạn",
+  "LuckStatus4": "Các linh hồn cảm thấy hoàn toàn trung lập ngày hôm nay",
+  "LuckStatus5": "May mắn sẽ không đứng về phía bạn ngày hôm nay",
+  "LuckStatus6": "Có lẽ bạn nên ở nhà hôm nay...",
+  //Cài đặt - Tổng quát
+  "ShowLevelUpAnimation": "Hiển thị may mắn",
+  "ShowExperienceBar": "Hiển thị thanh kinh nghiệm",
+  "AllowExperienceBarToFadeOut": "Thanh kinh nghiệm mờ dần",
+  "ShowExperienceGain": "Hiển thị kinh nghiệm 1 lần nữa",
+  "ShowLocationOfTownsPeople": "Hiển thị người dân trên map",
+  "ShowAnimalsNeedPets": "Hiển thị khi động vật muốn chăm sóc",
+  "HideAnimalPetOnMaxFriendship": "Ẩn những con vật trên tối đa tình bạn",
+  "ShowCropAndBarrelTooltip": "Hiển thị hạt giống và thùng ủ",
+  "ShowItemEffectRanges": "Hiển thị tầm của vòi tưới và bù nhìn",
+  "ShowExtraItemInformation": "Hiển thị thông tin mục bổ sung",
+  "ShowHarvestPricesInShop": "Hiển thị giá trong shop",
+  //Cài đặt - Thông tin tab
+  "DisplayCalendarAndBillboard": "Hiển thị bảng và lịch",
+  "ShowHeartFills": "Hiển thị trái tim lấp đầy",
+  "ShowTodaysGifts": "Hiển thị quà tặng được tặng hôm nay",
+  //Cài đặt - Hiện thị nút
+  "ShowBirthdayIcon": "Hiển thị nút sinh nhật",
+  "HideBirthdayIfFullFriendShip": "Ẩn những người tối đa tình bạn",
+  "ShowTravelingMerchant": "Hiển thị xe heo",
+  "HideMerchantWhenVisited": "Ẩn khi truy cập",
+  "ShowRainyDay": "Hiển thị những ngày mưa ",
+  "ShowWhenNewRecipesAreAvailable": "Hiển thị khi có công thức nấu ăn mới",
+  "ShowToolUpgradeStatus": "Hiển thị trạng thái update trang bị",
+  "ShowRobinBuildingStatusIcon": "Hiển thị nút trạng thái xây của Robin",
+  "ShowLuckIcon": "Hiển thị nút may mắn",
+  "ShowExactValue": "Hiển thị giá trị chính xác",
+  "ShowSeasonalBerry": "Hiển thị quả mọng theo mùa",
+  "ShowSeasonalBerryHazelnut": "Hiển thị hạt phỉ trên cây",
+  //Khác
+  "LevelUp": "Lên cấp"
+}
