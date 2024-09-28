@@ -6,7 +6,7 @@ public class BtnNew : BaseBtn
 {
     protected override void OnClick()
     {
-        GameManager.Instance.isNewGame = true;
+       // GameManager.Instance.isNewGame = true;
         SceneManager.LoadScene("demo");
       
     }

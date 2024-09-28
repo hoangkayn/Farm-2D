@@ -1,24 +1,35 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using System;
 
 public class GameManager : BaseMono
 {
-    protected static GameManager instance;
-    public static GameManager Instance => instance;
-    public bool isNewGame;
+    [SerializeField] protected float tickFrequency = 0.2f;
+    private static int currentTick = 0;
+    public static int CurrentTick => currentTick;
+    private float lastTickTime = 0;
+    [SerializeField] protected static float currentGameTime;
+    public static float CurrentGameTime => currentGameTime;
+    public static Action OnTick;
     protected override void Awake()
     {
         base.Awake();
-        if (instance != null && instance != this)
+        Cursor.lockState = CursorLockMode.Confined;
+        Cursor.visible = false;
+    }
+    protected virtual void Update()
+    {
+        this.Tick();
+    }
+    protected virtual void Tick()
+    {
+        currentGameTime += Time.deltaTime;
+        if(currentGameTime >= lastTickTime + tickFrequency)
         {
-            Destroy(gameObject);
-        }
-        else
-        {
-            instance = this;
-            DontDestroyOnLoad(gameObject);
+            lastTickTime = currentGameTime;
+            OnTick.Invoke();
+            currentTick++;
         }
     }
-
 }

@@ -24,5 +24,9 @@ public class BaseMono : MonoBehaviour
     {
         
     }
+    protected virtual void OnDisable()
+    {
+        
+    }
 
 }

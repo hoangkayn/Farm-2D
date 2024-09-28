@@ -11,6 +11,9 @@ public class CameraFollow : BaseMono
 
     private void FixedUpdate()
     {
+        this.Following();
+    }
+    protected virtual void Following() {
         if (target != null)
         {
             Vector3 desiredPosition = target.position + offset;
@@ -23,4 +26,5 @@ public class CameraFollow : BaseMono
             transform.parent.position = smoothedPosition;
         }
     }
+
 }

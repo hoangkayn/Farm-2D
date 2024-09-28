@@ -17,7 +17,7 @@ public class LoadManager : BaseMono
            
         }
     }
-    protected override void Start()
+ /*   protected override void Start()
     {
         base.Start();
         if (GameManager.Instance == null)
@@ -56,7 +56,7 @@ public class LoadManager : BaseMono
             }
 
             // Khôi phục thời gian game
-            TimeManager.Instance.SetTime(saveData.currentDay, saveData.currentSeason, saveData.currentYear);
+          //  TimeManager.Instance.SetTime(saveData.currentDay, saveData.currentSeason, saveData.currentYear);
         }
     }
     public void NewGame()
@@ -66,6 +66,7 @@ public class LoadManager : BaseMono
        TileManager.Instance.GenerateDefaultTiles();
 
         // Thiết lập thời gian ban đầu
-        TimeManager.Instance.SetTime(1, 1, 1); // Ngày 1, Mùa Xuân, Năm 1
+      //  TimeManager.Instance.SetTime(1, 1, 1); // Ngày 1, Mùa Xuân, Năm 1
     }
+ */
 }
